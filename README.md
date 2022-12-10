@@ -1,4 +1,4 @@
-# clerk-shell
+# clerkless
 
 An empty shell of Clerk's Public API.
 
@@ -10,7 +10,7 @@ a library, but not declare a depdency on it.
 Override the `:git/url` of your Clerk dependency:
 
 ``` clojure
-{:deps {io.github.nextjournal/clerk {:git/url "https://github.com/nextjournal/clerk-shell"
+{:deps {io.github.nextjournal/clerk {:git/url "https://github.com/nextjournal/clerkless"
                                      :git/sha ",,,"}}}
 ```
 
